@@ -92,7 +92,7 @@ export default function Home() {
             </div>
             <div className="relative">
               <Image
-                src="https://image.bmit.co.kr/lens-me.com/upload/banner/20240613133700_50969037.jpg"
+                src="https://file.o-lens.com/prd_img/20728/1e580819-8cf7-41e4-8832-a14d568c071b%EC%84%9C%EB%B8%8C%EB%B0%B0%EB%84%88_M2.jpg?w=686"
                 alt="Model wearing colored contacts"
                 width={600}
                 height={600}
