@@ -1,3 +1,6 @@
+import React from "react";
+import Header from "./header";
+import Footer from "./footer";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -21,7 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.variable}>{children}</body>
+      <body className={inter.variable}>
+        <Header logo="https://cdn.builder.io/api/v1/image/assets/TEMP/c27b60d120448074aed912247ab433263e4e1bd5df6274db6626f4ae7ee5b0fe?apiKey=91998ea75a1643428fb73495d3983bc8&&apiKey=91998ea75a1643428fb73495d3983bc8" />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
